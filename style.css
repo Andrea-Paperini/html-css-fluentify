@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+.container{
+  width: 1200px;
+
+}
+body {
+    background-color: #0D325A;
+}
+#foto {
+  margin-left: 250px;
+  margin-top: 25px;
+}
+.header {
+      height: 600px;
+      position: relative;
+      margin-top: 0;
+        background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+    }
+.left {
+  color: #fff;
+  margin-left: 425px;
+  margin-top: 0px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+#toplogo {
+    line-height: 80px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 3%;
+  }
+.left:hover{
+  cursor: pointer;
+}
+.right {
+  float: right;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+#tutor {
+  color: rgba(255,255,255,.5)
+}
+#structure_button {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-right: 200px;
+    margin-left: 5px;
+  }
+  #login {
+      background-color: transparent;
+      border: 1px solid #4e8cb6;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      margin-left: 5px;
+    }
+.bottone {
+      background-color: #7fb802;
+      border: 1px solid #7fb802;
+      color: white;
+      border-radius: 5px;
+      font-family: 'Noto Sans KR', sans-serif;
+      text-transform: uppercase;
+      padding: 5px 10px;
+    }
+    .header::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    #jumbo {
+    width: 50%;
+    color: white;
+    position: relative;
+    height: 164px;
+    top: 500px;
+}
+#jumbo h1 {
+  position: relative;
+  bottom: 250px;
+}
+    .greystripe h4 {
+        color: lightgrey;
+      }
