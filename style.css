@@ -3,29 +3,43 @@
     padding:0;
     box-sizing: border-box;
   }
+  a {
+    text-decoration: none;
+  }
 .container{
   width: 1200px;
+  margin: 0 auto;
 
 }
 body {
-    background-color: #0D325A;
+
+}
+a#logo {
+  float: left;
 }
 #foto {
-  margin-left: 250px;
   margin-top: 25px;
 }
-.header {
-      height: 600px;
+header {
+      height: 500px;
       position: relative;
       margin-top: 0;
-        background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
-    }
+      background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+      background-size: 40%;
+      background-repeat: no-repeat;
+      background-position:bottom right;
+      background-color: #0D325A;
+      }
 .left {
   color: #fff;
-  margin-left: 425px;
+  height: 100px;
+  float: left;
   margin-top: 0px;
   padding: 5px;
   text-transform: uppercase;
+}
+.left span {
+  line-height: 100px;
 }
 #toplogo {
     line-height: 80px;
@@ -37,17 +51,20 @@ body {
   cursor: pointer;
 }
 .right {
+  padding: 5px;
+  text-align: right;
+  height: 100px;
   float: right;
   margin-top: 0;
   text-transform: uppercase;
 }
 #tutor {
+  line-height: 100px;
   color: rgba(255,255,255,.5)
 }
 #structure_button {
     padding: 5px 10px;
     text-transform: uppercase;
-    margin-right: 200px;
     margin-left: 5px;
   }
   #login {
@@ -68,7 +85,7 @@ body {
       text-transform: uppercase;
       padding: 5px 10px;
     }
-    .header::after {
+.header_top::after {
       content: "";
       clear: both;
       display: table;
@@ -78,12 +95,9 @@ body {
     color: white;
     position: relative;
     height: 164px;
-    top: 500px;
 }
 #jumbo h1 {
+  margin-top: 150px;
+  margin-bottom: 20px;
   position: relative;
-  bottom: 250px;
 }
-    .greystripe h4 {
-        color: lightgrey;
-      }
